@@ -1,0 +1,7 @@
+project_id = "xfnqrnadwksjrrajsgtc"
+
+[functions.budget-chat]
+verify_jwt = false
+
+[functions.fetch-fx-rates]
+verify_jwt = false

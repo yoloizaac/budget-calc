@@ -1,0 +1,23 @@
+{
+    "name": "BKK Budget Buddy",
+    "short_name": "Budget Buddy",
+    "description": "Track your travel internship budget across countries",
+    "start_url": "/dashboard",
+    "display": "standalone",
+    "background_color": "#0a0a0a",
+    "theme_color": "#6d28d9",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "finance",
+        "productivity"
+    ],
+    "lang": "en"
+}

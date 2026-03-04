@@ -1,0 +1,1 @@
+ALTER TABLE public.funding ADD COLUMN currency TEXT DEFAULT 'SGD';
