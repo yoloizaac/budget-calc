@@ -53,6 +53,8 @@ It's purpose-built for a single user (no multi-tenancy), deployed as a PWA, and 
 - **Onboarding Dialog** — first-run setup wizard (re-runnable from Settings)
 - **Daily Log Reminder Notifications** — browser push notification after 6 PM if no log for the day
 
+<img width="2076" height="1235" alt="image" src="https://github.com/user-attachments/assets/96abba77-69a4-4a4c-8dd0-b251f4287e84" />
+
 ### 📅 Daily Log
 - Date picker + country selector (auto-detects country based on internship dates)
 - Quick-save per field (Lunch, Dinner, Other Food, Transport, Misc) with budget hints
@@ -62,6 +64,8 @@ It's purpose-built for a single user (no multi-tenancy), deployed as a PWA, and 
 - Last 7 days history with expandable entries
 - Recurring expense defaults (pre-fill amounts for known regular costs)
 - Zod-validated form submission
+
+<img width="1500" height="1232" alt="image" src="https://github.com/user-attachments/assets/bb6ac732-131f-4c72-8599-ca1df70792ee" />
 
 ### 💳 Transactions
 - Full CRUD for lump-sum expenses
@@ -74,6 +78,8 @@ It's purpose-built for a single user (no multi-tenancy), deployed as a PWA, and 
 - Photo attachments per transaction
 - Floating action button (FAB) for quick add
 
+<img width="2496" height="1092" alt="image" src="https://github.com/user-attachments/assets/e3dd6e2d-67a3-4cb9-8d82-7fca47f2cf7c" />
+
 ### 💰 Funding
 - Track expected and received funding from: Starting Balance, School, Salary, Other
 - Multi-currency support — store each funding row in its original currency
@@ -81,6 +87,8 @@ It's purpose-built for a single user (no multi-tenancy), deployed as a PWA, and 
 - KPI cards: Expected, Received, Outstanding
 - CRUD with bottom sheet form
 - Zod-validated inputs
+
+<img width="1114" height="1247" alt="image" src="https://github.com/user-attachments/assets/5c46d686-aebc-41ac-a2ca-c098cf95f8f8" />
 
 ### 🏠 Rent Tracker
 - Monthly rent obligation cards with status: **PAID**, **UNPAID**, **DUE SOON**
@@ -91,6 +99,8 @@ It's purpose-built for a single user (no multi-tenancy), deployed as a PWA, and 
 - Edit rent transactions inline
 - Automatic "due soon" detection (within 7 days of due date)
 
+<img width="1228" height="1207" alt="image" src="https://github.com/user-attachments/assets/e8341891-698b-4e9f-8de6-4b6222cf98b8" />
+
 ### 💬 Budget Chat (AI)
 - Streaming AI assistant powered by OpenAI via `budget-chat` Supabase Edge Function
 - Real-time SSE streaming with token-by-token display
@@ -98,6 +108,8 @@ It's purpose-built for a single user (no multi-tenancy), deployed as a PWA, and 
 - Prompt suggestion categories: Spending, Budget, Forecast, Compare
 - Prompt templates toolbar
 - Markdown rendering for assistant responses
+
+<img width="891" height="1071" alt="image" src="https://github.com/user-attachments/assets/0981eab6-deb1-4caa-9627-53fa871cc277" />
 
 ### ⚙️ Settings
 - **Appearance & Region**: display name, theme (light/dark/system), color accent preset, display currency, font size, default country
@@ -111,6 +123,9 @@ It's purpose-built for a single user (no multi-tenancy), deployed as a PWA, and 
 - **My Reports / My Suggestions**: view status of submitted items with admin notes
 - **Data**: CSV export (transactions + daily logs), full data clear
 - **Re-run Onboarding**: jump back to setup wizard
+
+<img width="849" height="958" alt="image" src="https://github.com/user-attachments/assets/4039b210-c67f-4964-ae61-8acfa8956ec8" />
+<img width="875" height="1205" alt="image" src="https://github.com/user-attachments/assets/56837948-fa04-4930-ab1e-5b678ab592db" />
 
 ### 🔐 Authentication
 - Supabase Auth (email + password)
